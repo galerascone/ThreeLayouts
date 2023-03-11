@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ThreeLayouts</string>
+
+    <string-array name="entry_list">
+        <!--0--> <item>Beginner</item>
+        <!--1--> <item>Intermediate</item>
+        <!--2--> <item>Expert</item>
+    </string-array>
+
+</resources>

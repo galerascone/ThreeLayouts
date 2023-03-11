@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Screen1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+        app:cardBackgroundColor="#191919"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="UnusedAttribute">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120x20"
+                android:textColor="#682FCB"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120x20"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lnrKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="bottom"
+        android:padding="20dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/ButtonGroupStyle">
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvPercent"
+                        style="@style/StyleTextView"
+                        android:text="%" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvCE"
+                        style="@style/StyleTextView"
+                        android:text="CE" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/AC"
+                        style="@style/StyleTextView"
+                        android:text="AC" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/Divide"
+                        style="@style/StyleTextView"
+                        android:text="÷" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/ButtonGroupStyle">
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        style="@style/StyleTextView"
+                        android:text="7" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        style="@style/StyleTextView"
+                        android:text="8" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        style="@style/StyleTextView"
+                        android:text="9" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvMultiply"
+                        style="@style/StyleTextView"
+                        android:text="X" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/ButtonGroupStyle">
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        style="@style/StyleTextView"
+                        android:text="4" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        style="@style/StyleTextView"
+                        android:text="5" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        style="@style/StyleTextView"
+                        android:text="6" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvMinus"
+                        style="@style/StyleTextView"
+                        android:text="-" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/ButtonGroupStyle">
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        style="@style/StyleTextView"
+                        android:text="1" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        style="@style/StyleTextView"
+                        android:text="2" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        style="@style/StyleTextView"
+                        android:text="3" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvPlus"
+                        style="@style/StyleTextView"
+                        android:text="+" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat style="@style/ButtonGroupStyle">
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        style="@style/StyleTextView"
+                        android:text="" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tv0"
+                        style="@style/StyleTextView"
+                        android:text="0" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/StyleCardView">
+
+                    <TextView
+                        android:id="@+id/tvDot"
+                        style="@style/StyleTextView"
+                        android:text="." />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    style="@style/StyleCardView"
+                    app:cardBackgroundColor="#9C27B0">
+
+                    <TextView
+                        android:id="@+id/tvEqual"
+                        style="@style/StyleTextView"
+                        android:text="=" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
